@@ -1,0 +1,23 @@
+{
+  "name": "nos",
+  "version": "1.0.0",
+  "description": "Parte grafica del proyecto Nyxent operative System NOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mager19/nos.git"
+  },
+  "author": "mager19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mager19/nos/issues"
+  },
+  "homepage": "https://github.com/mager19/nos#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1"
+  }
+}

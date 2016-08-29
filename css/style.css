@@ -1,0 +1,33 @@
+body{
+	background-color: #f5f5f5;
+	font-family: 'Catamaran', sans-serif;
+	/*font-family: 'News Cycle', sans-serif;	*/
+}
+/*Barra top*/
+#barra__top{
+	background-color: #2a3342;
+	color:#fff;
+	padding: 1em 0;
+}
+
+
+.barra__top__items i{
+	color:#fff;
+	font-size: 2em;
+	padding-top:5px; 
+}
+
+.barra__top__items img{
+	border-radius: 50%;
+	height: 36px;
+	width: 36px;
+}
+
+
+
+/*Nav*/
+nav{
+	background-color: #fff;
+	box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	height: 60px;
+}
