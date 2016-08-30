@@ -15,6 +15,13 @@ body{
 	color:#fff;
 	font-size: 2em;
 	padding-top:5px; 
+	transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+}
+
+.barra__top__items i:hover{
+	color: #23a0c3;
 }
 
 .barra__top__items img{
@@ -24,10 +31,107 @@ body{
 }
 
 
-
 /*Nav*/
 nav{
 	background-color: #fff;
 	box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
-	height: 60px;
+	font-family: 'News Cycle', sans-serif;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.nav__item a{
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+}
+
+.nav__item a i{
+	color:#6E7783;
+	font-size: 1em;
+	margin-right: 0.5em;
+	transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+}
+
+.nav__item a:hover, .nav__item a:hover i{
+	color:#64b0f2;
+	text-decoration: none;
+}
+
+.nav__item--active a, .nav__item--active a i{
+	color:#64b0f2!important;
+}
+
+/*Contenido*/
+
+.contenido h2{
+	color:#6E7783;
+	font-size: 3em;
+	font-family: 'News Cycle', sans-serif;
+	letter-spacing: 2px;
+	margin-top: 1em;
+}
+
+.contenido h2 span{
+	font-weight: 700;
+}
+
+.contenido h4{
+	color: #1bb99a;
+	font-weight: 500;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+.contenido__item{
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	color:#6E7783;
+	overflow: hidden;
+	padding: 2em;
+	max-height: 300px;
+	margin-bottom: 1em;
+}
+
+.contenido__item h3{
+	color:#23a0c3;
+	margin-top: 1px;
+}
+
+.contenido__item i{
+	color:#979fa9;
+	font-size: 2em;
+}
+
+.contenido__item p{
+	margin-top: 1.5em;
+}
+
+.contenido__item ul{
+	margin-left: -2em;
+}
+
+.contenido__item ul li{
+	color:#23a0c3;
+	list-style: none;
+}
+
+.contenido__item ul li i{
+	color:#ff5d48;
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+.progress{
+	margin-top: 2em;
+}
+
+.progress-bar {
+    background-color: #2a3342;
+    box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
 }
