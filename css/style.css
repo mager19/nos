@@ -96,6 +96,7 @@ nav{
 	padding: 2em;
 	max-height: 300px;
 	margin-bottom: 1em;
+	padding-bottom: 21em;
 }
 
 .contenido__item h3{
@@ -127,6 +128,11 @@ nav{
 	margin-right: 5px;
 }
 
+.contenido__item span{
+	color:#23a0c3;
+	font-size: 2em;
+}
+
 .progress{
 	margin-top: 2em;
 }
@@ -134,4 +140,31 @@ nav{
 .progress-bar {
     background-color: #2a3342;
     box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+}
+
+.resumen{
+	margin:2em 0;
+
+}
+
+.panel{
+	margin: 1em 0;
+}
+
+.total{
+	min-height: 210px;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #1bb99a;
+
+}
+
+.panel-primary{
+	border-color: #1bb99a;
+}
+
+.panel-primary h3{
+	color:#f9f9f9;
 }
