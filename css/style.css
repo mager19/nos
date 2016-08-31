@@ -248,3 +248,51 @@ nav{
 	margin-top: 5px;
 }
 
+/*Horas*/
+
+
+.btn{
+	border: 1px solid #23a0c3;
+	border-radius: 3px;
+	font-size: 1.2em;
+	transition: 0.4s linear all;
+	-webkit-transition: 0.4s linear all;
+	-moz-transition: 0.4s linear all;
+}
+
+.btn-active{
+	background-color: #23a0c3;
+	color:#f9f9f9;
+	margin-bottom: 3em;
+}
+
+
+span.text, .filter-option {
+	font-size: 1em!important;
+}
+
+.selectpicker{
+	height: 40px;
+	margin-top: 2em;
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 0;
+    height: 40px;
+    margin-top: 2em;
+}
+
+.form__horas textarea{
+	border: 1px solid #23a0c3;
+    border-radius: 3px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top: 2em;
+}
+
+.contenido__horas--show{
+	display: none;
+	transition: 0.4s linear all;
+	-webkit-transition: 0.4s linear all;
+	-moz-transition: 0.4s linear all;
+}
