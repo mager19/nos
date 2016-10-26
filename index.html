@@ -5,17 +5,131 @@
 	<title>Nos - Nyxent</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	   <!-- Custom CSS -->
+	   	<link rel="stylesheet" href="css/style.css">
+    	<link href="css/simple-sidebar.css" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5">
-				<h1>NOS</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, amet, hic ipsum minima voluptas, repellat molestiae ut aperiam, a cum nam reprehenderit. Molestias error, tempora vitae ipsa libero incidunt  provident!</p>
+	
+	 <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+			<div  id="navegacion">
+				<ul class="sidebar-nav">
+					<li><a href="#home" class="activo"><img src="img/client.svg" alt="">Client</a></li>
+					<li><a href="#account"><img src="img/info.svg" alt="">Account info</a></li>
+					<li><a href="#"><img src="img/money.svg" alt="">Payment Plan</a></li>
+					<li><a href="#"><img src="img/lawsuits.svg" alt="">Document to Sign</a></li>
+				</ul>			
 			</div>
-		</div>
-	</div>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                	<!-- Bloque 1 -->
+                    <div class="bloque visible" id="home">
+                    	<div class="col-md-10 central">
+								<h1>Contenido Principal</h1>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex est expedita minima unde sint, delectus, nam totam adipisci cupiditate magnam numquam vero beatae natus atque rerum explicabo veritatis vel.</p>
+
+		                        <img src="https://imgholder.ru/600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas" alt=""><br>
+		                        <br>
+		                        <br>
+		                        <br>
+		                        
+		                        <div class="col-md-12">
+		                        	<a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
+		                        </div>
+                    	</div>
+
+                    	<div class="col-md-2 derecha">
+                    		<h2>Contenido derecha</h2>
+                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
+                    	</div>
+                    		    
+                    </div>
+                    <!-- End Bloque 1 -->
+
+                    <!-- Bloque 2 -->
+                    <div class="bloque" id="account">
+                    	<div class="col-md-10 central">
+								<h1>Contenido Secundario </h1>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex est expedita minima unde sint, delectus, nam totam adipisci cupiditate magnam numquam vero beatae natus atque rerum explicabo veritatis vel.</p>
+
+		                        <img src="https://imgholder.ru/600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas" alt=""><br>
+		                        <br>
+		                        <br>
+		                        <br>
+		                        
+		                        <div class="col-md-12">
+		                        	<a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
+		                        </div>
+                    	</div>
+
+                    	<div class="col-md-2 derecha">
+                    		<h2>Contenido Secundario derecha</h2>
+                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
+                    	</div>
+                    		    
+                    </div>
+                    <!-- End Bloque 2 -->
+
+ 
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
 
 <script src="js/bootstrap.js"></script>	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+    <script>
+$( document).ready(function($){
+
+
+  var bloques = $('.bloque'),
+      enlaces = $('#navegacion').find('a');
+
+
+  
+  enlaces.click(function(e){
+    
+    e.preventDefault();
+    
+    var hash = $(this).attr('href');
+    
+    bloques
+      .filter(hash)
+      .addClass('visible')
+      .siblings()
+      .removeClass('visible');
+    
+    enlaces
+      .removeClass('activo');
+    
+    $(this)
+      .addClass('activo');
+    
+  });
+
+   $(".menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+});
+</script>
 </body>
 </html>
