@@ -9,6 +9,7 @@
 	   <!-- Custom CSS -->
 	   	<link rel="stylesheet" href="css/style.css">
     	<link href="css/simple-sidebar.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
 	
@@ -19,10 +20,10 @@
 
 			<div  id="navegacion">
 				<ul class="sidebar-nav">
-					<li><a href="#home" class="activo"><img src="img/client.svg" alt="">Client</a></li>
-					<li><a href="#account"><img src="img/info.svg" alt="">Account info</a></li>
-					<li><a href="#"><img src="img/money.svg" alt="">Payment Plan</a></li>
-					<li><a href="#"><img src="img/lawsuits.svg" alt="">Document to Sign</a></li>
+					<li><a href="#home" class="activo"><i class="fa fa-user"></i>Client</a></li>
+					<li><a href="#account"><i class="fa fa-user"></i>Account info</a></li>
+					<li><a href="#"><i class="fa fa-user"></i>Payment Plan</a></li>
+					<li><a href="#"><i class="fa fa-user"></i>Document to Sign</a></li>
 				</ul>			
 			</div>
 
@@ -52,6 +53,34 @@
                     	<div class="col-md-2 derecha">
                     		<h2>Contenido derecha</h2>
                     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
+                            <a href="#menu-toggle" class="btn btn-default menu-toggle" data-toggle="modal" data-target="#myModal">Ocultar Menu</a>
+                            
+                            <!-- Button trigger modal -->
+                            <button href="#menu-toggle" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                              Launch demo modal
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+
                     	</div>
                     		    
                     </div>
@@ -69,13 +98,15 @@
 		                        <br>
 		                        
 		                        <div class="col-md-12">
-		                        	<a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
+		                        	<a href="#menu-toggle" onclick="window.open('#menu-toggle');
+    window.open('http://yahoo.com');" class="btn btn-default menu-toggle" data-toggle="modal" data-target="#myModal">Ocultar Menu</a>
 		                        </div>
                     	</div>
 
                     	<div class="col-md-2 derecha">
                     		<h2>Contenido Secundario derecha</h2>
                     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
+                            <a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
                     	</div>
                     		    
                     </div>
@@ -91,9 +122,10 @@
     <!-- /#wrapper -->
 
 
-<script src="js/bootstrap.js"></script>	
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script> 
+
 
 
     <script>
@@ -129,6 +161,15 @@ $( document).ready(function($){
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
+
+   $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+    })
+
+   $('#myModal').on('hidden.bs.modal', function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    })
 });
 </script>
 </body>
