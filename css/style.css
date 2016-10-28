@@ -310,6 +310,7 @@ span.text, .filter-option {
 
 #page-content-wrapper{
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -440,4 +441,167 @@ span.text, .filter-option {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
 	font-weight: 500;
+}
+
+.glyphicon-flag {
+    position: relative;
+    left: 75%;
+    font-size: 1.2em;
+}
+
+
+#sidebar-wrapper h1{
+
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	font-weight: 800;
+}
+
+#sidebar-wrapper h1 > span{
+	font-size: 1em!important;
+}
+
+.titulo{
+	color:#D9D8D0;
+	margin-top: 10em;
+}
+
+.titulo p{
+	margin-top: 4em;
+	margin-left: 0.5em;
+}
+
+.menu-toggle i{
+	font-size: 1.5em;
+}
+
+.central__cabecera{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+}
+
+.central__cabecera h3{
+	color:#679AC7;
+	font-size: 2em;
+}
+
+.central__cabecera img{
+	margin-right: 0.5em;
+	width: 8%;
+}
+
+.etiquetas{
+	border:1px solid #48B27E!important;
+	color:#48B27E!important;
+	font-size: 1.3em!important;
+	margin-top: 1em;
+}
+
+.etiquetas:hover{
+	background-color: #48B27E!important;
+	color:#fff!important;
+}
+
+.menu-principal{
+	margin-top: 1.2em;
+}
+
+.menu-principal li{
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+    margin-top: 0.5em;
+}
+
+.menu-principal li a{
+	color:#679AC7;
+	font-size: 1.5em;
+}
+
+
+/*contenido central */
+
+.central__contenido form{
+	padding-top: 2em;
+}
+
+.central__contenido form * {
+    vertical-align: middle;
+}
+
+
+.central__contenido input, .central__contenido textarea{
+	border:1px solid #CCCCCC;
+	border-radius: 2px;
+	margin-left: 0.5em;
+	padding: 0.3em 0;
+	padding-left: 1em;
+	width:60%;
+}
+
+.central__contenido textarea{
+	margin-bottom: 1em;
+}
+
+
+.central__contenido label{
+	color:#8C97A4;
+}
+
+.input--large{
+	margin-top: 3em;
+}
+.input--large img{
+	margin-right: 1em;
+	width: 5%;
+}
+
+.input--large h4{
+	color:#8C97A4;
+	margin-bottom: 2em;
+}
+
+.input--large label{
+	width: 14%;
+}
+
+.notes label{
+	width: 6%;
+}
+
+.notes textarea{
+	border:1px solid #CCCCCC;
+	border-radius: 2px;
+	margin-left: 0.5em;
+	padding: 0.3em 0;
+	padding-left: 1em;
+	width:88%;
+}
+
+.notes img{
+	margin-right: 1em;
+	width: 2%;
+}
+
+.th-peque{
+	width: 20%;
+}
+
+
+
+
+
+.derecha{
+	margin-top: 2em;
+}
+
+
+
+@media screen and (max-width:1366px) {
+	
+	.menu-principal li a{
+		font-size: 1.2em;
+	}
+
 }

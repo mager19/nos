@@ -42,21 +42,18 @@
             <!-- Historias de Usuario -->
             <div id="navegacion" >
               <div id="treeview1" class="navegacion"></div>
-              
-              <a href="#home" style="color:#fff; margin-left: 1em;"><i class="fa fa-user"></i>PRIMARIO</a><br><br>
-              <a href="#account" style="color:#fff; margin-left: 1em;"><i class="fa fa-user"></i>SECUNDARIO</a>
+               
             </div>
             <!-- Fin Historias de Usuario --> 
 
-
-      <!-- 			<div  id="navegacion">
-      				<ul class="sidebar-nav">
-      					<li><a href="#home" class="activo"><i class="fa fa-user"></i>Client</a></li>
-      					<li><a href="#account"><i class="fa fa-user"></i>Account info</a></li>
-      					<li><a href="#"><i class="fa fa-user"></i>Payment Plan</a></li>
-      					<li><a href="#"><i class="fa fa-user"></i>Document to Sign</a></li>
-      				</ul>			 
-      			</div>  -->
+            <div class="titulo">
+              <div class="col-md-4">
+                <h1>NOS</h1>
+              </div>
+              <div class="col-md-8"> 
+                <p>Nyxent Operative System</p>
+              </div>
+            </div>
 
         </div>
         <!-- /#sidebar-wrapper -->
@@ -67,74 +64,209 @@
                 <div class="row">
                 	<!-- Bloque 1 -->
                     <div class="bloque visible" id="home">
-                    	<div class="col-md-10 central">
-								<h1>Contenido Principal</h1>
-		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex est expedita minima unde sint, delectus, nam totam adipisci cupiditate magnam numquam vero beatae natus atque rerum explicabo veritatis vel.</p>
+                    	<div class="col-md-12 central">
+								        <div class="row">
+                            <div class="col-md-12">
+                               <div class="central__cabecera">
+                                   <div class="row">
+                                     <div class="col-md-4">
+                                       <h3><img src="img/flag.svg" alt="">3.2 Update Profile</h3>
+                                     </div>
 
-		                        <img src="https://imgholder.ru/600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas" alt=""><br>
-		                        <br>
-		                        <br>
-		                        <br>
-		                        
-		                        <div class="col-md-12">
-		                        	<a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
-		                        </div>
-                    	</div>
+                                     <div class="col-md-1">
+                                       <a href="#" class="btn btn-default etiquetas" data-toggle="modal" data-target="#etiquetas">Etiquetas</a>
+                                     </div>
 
-                    	<div class="col-md-2 derecha">
-                    		<h2>Contenido derecha</h2>
-                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
-                            <a href="#menu-toggle" class="btn btn-default menu-toggle" data-toggle="modal" data-target="#myModal">Ocultar Menu</a>
+                                               <!-- Modal -->
+                                      <div class="modal fade" id="etiquetas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                              ...
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                     <div class="col-md-7">
+                                       <ul class="menu-principal">
+                                         <li><a href="#"><img src="img/proyecto.svg" alt="proyecto">Proyectos </a></li>
+                                         <li><a href="#"><img src="img/proyecto.svg" alt="proyecto">H. de Usuarios</a></li>
+                                         <li><a href="#"><img src="img/proyecto.svg" alt="proyecto">T. Ingeniero</a></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                   
+                                </div>
+                                                              
+                            </div> 
+
+                            <!-- Contenido principal -->
                             
+                            <div class="central__contenido">
+                                <div class="col-md-10">
+                                  <div class="row">
+                                    <form action="#">
+                                      <div class="col-md-3">
+                                        <label for="">Prority</label>
+                                        <input type="text" placeholder="LOW">
+                                      </div>
 
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                              <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                    ...
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                      <div class="col-md-3">
+                                        <label for="">Risk</label>
+                                        <input type="text" placeholder="LOW">
+                                      </div>
+
+                                      <div class="col-md-3">
+                                        <label for="">Size</label>
+                                        <input type="text" placeholder="LOW">
+                                      </div>
+
+                                      <div class="col-md-3">
+                                        <label for="">Release</label>
+                                        <input type="text" placeholder="LOW">
+                                      </div>
+
+                                      <div class="col-md-6 input--large">
+                                        <h4><img src="img/document.svg" alt="">Narrative</h4>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                            <label for="">As a</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="">I Want</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="">So That</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="col-md-6 input--large">
+                                        <h4><img src="img/acceptance.svg" alt="">Acceptance Criteria</h4>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                            <label for="">Given</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="">When</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                          <div class="col-md-12">
+                                            <label for="">Then</label>
+                                            <textarea name="Text1" cols="40" rows="2" placeholder=""></textarea>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="col-md-12 input--large notes">
+                                        <h4><img src="img/notes.svg" alt="">Notes</h4>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                            <label for="">Given</label>
+                                            <textarea name="Text1" cols="60" rows="4" placeholder=""></textarea>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                  </form>
+
+                                  <!-- Log -->
+                                      <div class="col-md-12 input--large notes">
+                                        <h4><img src="img/notes.svg" alt="">Log</h4>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                              <table class="table table-striped">
+                                                  <thead>
+                                                  <tr>
+                                                    <th class="th-peque">Date</th>
+                                                    <th class="th-peque">By</th>
+                                                    <th>Notes</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">24/10/16</th>
+                                                    <td>Juan</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim impedit tempore provident harum aliquam ipsa rem culpa? Ratione praesentium, accusantium at error. Quas eos in quasi, est minima natus recusandae.</td>
+                                                    
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">22/10/16</th>
+                                                    <td>Andy</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, numquam.</td>
+                                                    
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">21/10/16 </th>
+                                                    <td>Juan</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt enim cupiditate vero quod, consectetur, nam atque recusandae. Neque ipsam omnis dicta, nam error accusantium ab numquam optio possimus distinctio aut quaerat illo asperiores, doloribus perspiciatis placeat corrupti reprehenderit! Nesciunt dolores, fugit pariatur odio. Culpa nihil similique, sed reprehenderit laborum odio?</td>
+                                                    
+                                                    
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                  
+                                    
                                   </div>
                                 </div>
-                              </div>
+
+                                <div class="col-md-2 derecha">
+                                    <h2>Contenido derecha</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate   soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
+                                        <a href="#menu-toggle" class="btn btn-default menu-toggle" data-toggle="modal" data-target="#myModal">Ocultar Menu</a>
+                                        
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                              </div>
+                                              <div class="modal-body">
+                                                ...
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                </div>
                             </div>
+  
 
+                        </div>    
 
-
+		                       
                     	</div>
-                    		    
+
+                    	                    		    
                     </div>
                     <!-- End Bloque 1 -->
 
-                    <!-- Bloque 2 -->
-                    <div class="bloque" id="account">
-                    	<div class="col-md-10 central">
-								<h1>Contenido Secundario </h1>
-		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex est expedita minima unde sint, delectus, nam totam adipisci cupiditate magnam numquam vero beatae natus atque rerum explicabo veritatis vel.</p>
-
-		                        <img src="https://imgholder.ru/600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas" alt=""><br>
-		                        <br>
-		                        <br>
-		                        <br>
-		                        
-		                    
-                    	</div>
-
-                    	<div class="col-md-2 derecha">
-                    		<h2>Contenido Secundario derecha</h2>
-                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus suscipit quaerat autem sit! Culpa autem voluptate 	soluta, recusandae veritatis, omnis libero, sit dolorem perspiciatis earum amet consectetur modi maiores?</p>
-                            <a href="#menu-toggle" class="btn btn-default menu-toggle">Ocultar Menu</a>
-                    	</div>
-                    		    
-                    </div>
-                    <!-- End Bloque 2 -->
+                  
 
  
                 </div>
@@ -187,20 +319,24 @@ $( document).ready(function($){
                 text: 'Child 1',
                 href: '#child1',
                 tags: ['2'],
+                icon: "glyphicon glyphicon-flag",
                 nodes: [
                   {
                     text: 'Grandchild 1',
                     href: '#grandchild1',
+                    icon: "glyphicon glyphicon-flag",
                     tags: ['0']
                   },
                   {
                     text: 'Grandchild 2',
                     href: '#grandchild2',
+                    icon: "glyphicon glyphicon-flag",
                     tags: ['0']
                   },
                   {
                     text: 'Otro Hijo',
                     href: '#grandchild2',
+                    icon: "glyphicon glyphicon-flag",
                     tags: ['0']
                   }
                 ]
@@ -209,10 +345,12 @@ $( document).ready(function($){
                 text: 'Child 2',
                 href: '#child2',
                 tags: ['0'],
+                icon: "glyphicon glyphicon-flag",
                 nodes: [
                   {
                     text: 'Hijo 1',
                     href: '#grandchild3',
+                    icon: "glyphicon glyphicon-flag",
                     tags: ['0']
                   },
                   {
@@ -223,6 +361,7 @@ $( document).ready(function($){
                         {
                           text: 'Hijo de Hijo 12',
                           href: '#grandchild3',
+                          icon: "glyphicon glyphicon-flag",
                           tags: ['0']
 
                         }
@@ -246,6 +385,7 @@ $( document).ready(function($){
 
                     text: 'Child 1',
                       href: '#child1',
+                      icon: "glyphicon glyphicon-flag",
                       tags: ['2'],
 
                   }
@@ -256,6 +396,7 @@ $( document).ready(function($){
           {
             text: 'Parent 3',
             href: '#menu-toggle',
+            icon: "glyphicon glyphicon-flag",
             tags: ['4']
            
           }
@@ -277,18 +418,15 @@ $( document).ready(function($){
 
 
       var bloques = $('.bloque');
-      // enlaces = $('#navegacion').find('a');
-      var enlaces = $(".list-group-item").find("a");
-      console.log("inicio de log");
-      console.log(enlaces);
-      
-
-
+      enlaces = $('#navegacion').find('a');
+      // var enlaces = $(".list-group-item").find("a");
+      // console.log("inicio de log");
+      // console.log(enlaces);
   
       enlaces.click(function(e){
         
         e.preventDefault();
-        alert("culpa de wilman");
+        
         var hash = $(this).attr('href');
         
         bloques
