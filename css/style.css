@@ -519,6 +519,10 @@ span.text, .filter-option {
 	font-size: 1.5em;
 }
 
+.menu-principal li a img{
+	width: 13%;
+}
+
 
 /*contenido central */
 
@@ -584,18 +588,69 @@ span.text, .filter-option {
 	width: 2%;
 }
 
+.table{
+	border: 1px solid #CCCCCC;
+	padding-left: 0.5em;
+}
+
 .th-peque{
+	color:#8C97A4;
 	width: 20%;
 }
 
-
-
-
-
-.derecha{
-	margin-top: 2em;
+.oscura{
+	color:#8C97A4;
 }
 
+
+/*Derecha*/
+.derecha{
+	padding-top: 2em;
+}
+
+.derecha__card{
+	background-color: #fff;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+.derecha__card img{
+	padding-top: 0.5em;
+	width: 120%;
+}
+
+.derecha__card h3{
+	color:#90A4B6;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+.derecha__card h4{
+	color:#F26F71;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-top: -10px;
+}
+
+.release{
+	color:#17BA9C!important;
+}
+
+.derecha__card ul{
+	margin-left: -2.5em;
+}
+
+.derecha__card ul li{
+	list-style: none;
+	text-align: left;
+}
+
+.derecha__card a{
+	color:#90A4B6;
+	width: 100%;
+}
 
 
 @media screen and (max-width:1366px) {
