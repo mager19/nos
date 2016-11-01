@@ -83,15 +83,31 @@
                                           <div class="modal-content">
                                             <div class="modal-header">
                                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                              <h4 class="modal-title" id="myModalLabel">Etiquetas</h4>
                                             </div>
                                             <div class="modal-body">
-                                              ...
+                                              <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 etiquetas__item" id="finalizado">
+                                                  <a href="#" >Finalizado</a>
+                                                </div>
+
+                                                <div class="col-md-10 col-md-offset-1 etiquetas__item" id="en_progreso">
+                                                  <a href="#" >En Progreso</a>
+                                                </div>
+
+                                                <div class="col-md-10 col-md-offset-1 etiquetas__item" id="pendiente">
+                                                  <a href="#" >Pendiente</a>
+                                                </div>
+
+                                                <div class="col-md-10 col-md-offset-1 etiquetas__item" id="ninguna">
+                                                  <a href="#" >Ninguna</a>
+                                                </div>
+
+                                                
+                                              </div>
+                                               
                                             </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
+                                           
                                           </div>
                                         </div>
                                       </div>
@@ -234,10 +250,8 @@
                                 <!-- Derecha card 1 -->
                                     <div class="derecha__card">
                                       <div class="row">
-                                        <div class="col-md-3">
-                                          <img src="img/calendar.svg" alt="">
-                                        </div>
-                                        <div class="col-md-9">
+                                        
+                                        <div class="col-md-12">
                                           <h3>Due Date</h3>
                                           <h4>20 Nov 2016</h4>
                                         </div>
@@ -248,10 +262,8 @@
                                 <!-- Derecha card 2 -->
                                     <div class="derecha__card">
                                       <div class="row">
-                                        <div class="col-md-3">
-                                          <img src="img/calendar.svg" alt="">
-                                        </div>
-                                        <div class="col-md-9">
+                                        
+                                        <div class="col-md-12">
                                           <h3>Release</h3>
                                           <h4 class="release">20 Nov 2016</h4>
                                         </div>
@@ -262,10 +274,8 @@
                                 <!-- Derecha card 3 -->
                                     <div class="derecha__card">
                                       <div class="row">
-                                        <div class="col-md-3">
-                                          <img src="img/calendar.svg" alt="">
-                                        </div>
-                                        <div class="col-md-9">
+                                        
+                                        <div class="col-md-12">
                                           <h3>Related Stories</h3>
                                           <ul>
                                             <li><a href="#menu-toggle"  class="menu-toggle" data-toggle="modal" data-target="#myModal">3.2.1 Picture</a></li>
@@ -281,10 +291,8 @@
                                 <!-- Derecha card 4 -->
                                     <div class="derecha__card">
                                       <div class="row">
-                                        <div class="col-md-3">
-                                          <img src="img/calendar.svg" alt="">
-                                        </div>
-                                        <div class="col-md-9">
+                                        
+                                        <div class="col-md-12">
                                           <h3>Enginner Cards</h3>
                                           <ul>
                                             <li><a href="#menu-toggle"  class="menu-toggle" data-toggle="modal" data-target="#myModal">3.2.1 Picture</a></li>
@@ -300,10 +308,8 @@
                                 <!-- Derecha card 5 -->
                                     <div class="derecha__card">
                                       <div class="row">
-                                        <div class="col-md-3">
-                                          <img src="img/calendar.svg" alt="">
-                                        </div>
-                                        <div class="col-md-9">
+                                        
+                                        <div class="col-md-12">
                                           <h3>Uploads</h3>
                                           <ul>
                                             <li><a href="#menu-toggle"  class="menu-toggle" data-toggle="modal" data-target="#myModal">3.2.1 Picture</a></li>
@@ -319,19 +325,173 @@
 
                                         <!-- <a href="#menu-toggle" class="btn btn-default menu-toggle" data-toggle="modal" data-target="#myModal">Ocultar Menu</a> -->
                                         <!-- Modal -->
-                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                          <div class="modal-dialog" role="document">
+                                        <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                          <div class="modal-dialog modal-lg" role="document">
                                             <div class="modal-content">
                                               <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            <!-- Modal Title -->
+                                               <div class="col-md-5">
+                                                 <div class="title-modal">
+                                                   <h3>Engineer Card</h3>
+                                                   <h4>3.3.1 Picture profile</h4>
+                                                 </div>
+                                               </div>
+                                            <!-- Fin Modal Title -->
+
+                                             <!-- Due/date -->
+                                               <div class="col-md-6">
+                                                 <div class="due-release">
+                                                      <div class="row">
+                                                        <div class="col-md-6">
+                                                          <h3>Due Date</h3>
+                                                          <h4>20 Nov de 2016</h4>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                          <h3>Release</h3>
+                                                          <h4 id="release">20 Nov de 2016</h4>
+                                                        </div>
+                                                      </div>
+                                               
+                                                 </div>
+                                               </div>
+                                            <!-- Fin Due/date -->
+
                                               </div>
-                                              <div class="modal-body">
-                                                ...
+                                              <div class="modal-body" id="t_ing">
+                                                <div class="row">
+                                                <!-- Members -->
+                                                  <div class="col-md-12">
+                                                    <h3>Members</h3>
+                                                    <ul>
+                                                      <li><a href="#"><img src="img/user.jpg" alt=""></a></li>
+                                                      <li><a href="#"><img src="img/user.jpg" alt=""></a></li>
+                                                      <li><a href="#"><img src="img/user.jpg" alt=""></a></li>
+                                                      <li><a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+                                                    </ul>
+                                                  </div>
+                                                  <!-- Fin Members -->
+                                                  
+                                                  <!-- Priority -->
+                                                  <div class="col-md-12">
+                                                    <table class="table table-modal">
+                                                        <thead>
+                                                        <tr>
+                                                          <th class="th-peque">Priority</th>
+                                                          <th class="th-peque">Size</th>
+                                                          <th class="th-peque">Risk</th>
+                                                          <th class="th-peque_modal">Description</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td scope="row">Low</td>
+                                                          <td>Medium</td>
+                                                          <td>Low</td>
+                                                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim impedit tempore provident harum aliquam ipsa rem culpa? Ratione praesentium, accusantium at error. Quas eos in quasi, est minima natus recusandae.</td>
+                                                          
+                                                          
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                  <!-- Fin Priority -->
+
+
+                                                  <!-- Who -->
+                                                  <div class="col-md-12">
+                                                    <table class="table table-modal">
+                                                        <thead>
+                                                        <tr>
+                                                          <th class="th-peque">Who</th>
+                                                          <th class="th-peque">When</th>
+                                                          <th class="th-peque_modal">What</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td scope="row">Andy</td>
+                                                          <td>22/10/16</td>
+                                                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim impedit tempore provident harum aliquam ipsa rem culpa? Ratione praesentium, accusantium at error. Quas eos in quasi, est minima natus recusandae.</td>                                                
+                                                        </tr>
+
+                                                        <tr>
+                                                          <td scope="row">Juan</td>
+                                                          <td>22/10/16</td>
+                                                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim impedit tempore provident harum aliquam ipsa rem culpa? Ratione praesentium, accusantium at error. Quas eos in quasi, est minima natus recusandae.</td>                                                
+                                                        </tr>
+
+                                                        <tr>
+                                                          <td scope="row">Jairo</td>
+                                                          <td>22/10/16</td>
+                                                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim impedit tempore provident harum aliquam ipsa rem culpa? Ratione praesentium, accusantium at error. Quas eos in quasi, est minima natus recusandae.</td>                                                
+                                                        </tr>
+
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                  <!-- Fin Who -->
+                                                  
+                                                  <!-- Modals Buttons -->
+                                                  <div class="col-md-12 modal__buttons">
+                                                    <div class="row">
+                                                      <div class="col-md-3">
+                                                        <a id="#myModal-interna" href="#" data-toggle="modal" data-target="#related__cards"><img src="img/square.svg" alt="">Related Cards</a>
+                                                      </div>
+
+                                                      <div class="col-md-3">
+                                                        <a href="#" data-toggle="modal" data-target="#related__cards"><img src="img/square.svg" alt="">Related Stories</a>
+                                                      </div>
+
+                                                      <div class="col-md-3">
+                                                        <a href="#" data-toggle="modal" data-target="#related__cards"><img src="img/square.svg" alt="">Uploads</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <!-- Fin Buttons -->
+
+                                                  <!-- Modals Buttons -->
+                                                  <div class="col-md-12 modal__horas">
+                                                    <h3><img src="img/clock.svg" alt="">Total Horas</h3>
+                                                    <h4>280 Hrs</h4>
+                                                  </div>
+                                                  <!-- Fin Buttons -->
+
+                                                </div>
                                               </div>
                                               <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+
+
+                                                  <!-- Modales Internas -->
+                                                                    
+                                                       <div class="modal fade modal-interna" id="related__cards" tabindex="-1" role="dialog" aria-labelledby="myModalinternaLabel">
+                                                              <div class="modal-dialog modal-sm" role="document">
+                                                                <div class="modal-content">
+                                                                                                                     
+                                                                  <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                          <h3><img src="img/square.svg" alt=""> Related Stories</h3>
+                                                                          <ul>
+                                                                            <li><a href="#"  class="menu-toggle" >3.2.1 Picture</a></li>
+                                                                            <li><a href="#"  class="menu-toggle" >3.2.2 Email</a></li>
+                                                                            <li><a href="#"  class="menu-toggle" >3.2.1 Rol</a></li>
+                                                                            <li><a href="#"  class="menu-toggle" >3.2.1 Status</a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                  </div>
+                                                                 
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                      
+                                                  <!-- Fin Modales Internas -->
+                                                
+
+                                                
                                               </div>
                                             </div>
                                           </div>
@@ -374,18 +534,22 @@ $( document).ready(function($){
 
 
 
-   $(".menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+   // $(".menu-toggle").click(function(e) {
+   //      e.preventDefault();
+   //      $("#wrapper").toggleClass("toggled");
+   //  });
 
    $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').focus()
     })
 
-   $('#myModal').on('hidden.bs.modal', function (e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
+   // $('#myModal').on('hidden.bs.modal', function (e) {
+   //      e.preventDefault();
+   //      $("#wrapper").toggleClass("toggled");
+   //  })
+
+    $('#myModal-interna').on('shown.bs.modal', function () {
+        $('#myInput').focus()
     })
 
     // Tree bootstrap

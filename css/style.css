@@ -598,6 +598,11 @@ span.text, .filter-option {
 	width: 20%;
 }
 
+.th-peque_modal{
+	color:#8C97A4;
+	
+}
+
 .oscura{
 	color:#8C97A4;
 }
@@ -631,7 +636,7 @@ span.text, .filter-option {
 	color:#F26F71;
 	font-size: 1.5em;
 	font-weight: 400;
-	margin-top: -10px;
+	margin-top: -5px;
 }
 
 .release{
@@ -653,10 +658,187 @@ span.text, .filter-option {
 }
 
 
+/*etiquetas*/
+
+#etiquetas h4{
+	color:#8C97A4;
+	text-align: center;
+}
+
+
+.etiquetas__item{
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#finalizado{
+	background-color: #48B27E;
+}
+
+#finalizado a{
+	color:#fff;
+}
+
+#en_progreso{
+	background-color: #EEF16F;
+}
+
+#en_progreso a{
+	color:#4D4D4D;
+}
+
+
+#pendiente{
+	background-color: #F94E5A;
+}
+
+#pendiente a{
+	color:#fff;
+}
+
+#ninguna{
+	background-color: #fff;
+	border:1px solid #4d4d4d;
+}
+
+#ninguna a{
+	color:#4d4d4d;
+}
+
+
+.title-modal h3{
+	color:#679AC7;
+	font-weight: 200;
+}
+
+.title-modal h4{
+	color:#679ac7;
+	font-size: 1.2em;
+}
+
+.due-release{
+	text-align: center;
+}
+
+.due-release h3{
+	color:#8C97A4;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.due-release h4{
+	color:#F94E5A;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+#release {
+	color:#48B27E;
+}
+
+
+#t_ing h3{
+	color:#679AC7;
+	font-weight: 200;
+	margin-left: 0.8em;
+}
+
+#t_ing ul li{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+#t_ing i{
+	color:#679AC7;
+	font-size: 1.5em;
+}
+
+.table-modal{
+	border: 0px solid #CCCCCC;
+	padding-left: 0.5em;
+	margin-top: 1em;
+}
+
+.modal__buttons {
+	margin: 2em 0;
+}
+
+.modal__buttons a{
+	border:1px solid #CCCCCC;
+	border-radius: 5px;
+	font-size: 1.2em;
+	padding: 0.8em 1.5em;
+}
+
+.modal__buttons a img{
+	margin-right: 0.5em;
+	width: 10%;
+}
+
+.modal__horas{
+	margin-top: 2em;
+	margin-left: -1em;
+}
+
+.modal__horas img{
+	margin-right: 0.5em;
+	width: 5%;
+}
+
+.modal__horas h4{
+	color:#8C97A4;
+	margin-left: 4.2em;
+}
+
+
+/*Modal interna*/
+
+.modal-interna{
+	color:#90A4B6;
+}
+
+
+
+.modal-interna ul li{
+	list-style: none;
+	margin-bottom: 0.2em;
+	margin-left: 0.5em;
+	text-align: left;
+}
+
+.modal-interna  a{
+	color:#90A4B6;
+	font-size: 1.1em;
+	font-weight: 600;
+	width: 100%;
+}
+
+.modal-interna h3{
+	text-align: left;
+}
+
+.modal-interna h3 img{
+	margin-right: 0.5em;
+	width: 10%;
+}
+
+
+
 @media screen and (max-width:1366px) {
 	
 	.menu-principal li a{
 		font-size: 1.2em;
 	}
+
+	.derecha__card h4 {
+        font-size: 1.2em;
+    	margin-top: 0px;
+	}
+
+	.derecha__card h3 {
+        font-size: 1em;
+   	}
 
 }
