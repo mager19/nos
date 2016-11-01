@@ -825,6 +825,12 @@ span.text, .filter-option {
 }
 
 
+.modal-interna .modal-dialog {
+    position: relative;
+    top: 35em;
+    left: -10em;
+}
+
 
 @media screen and (max-width:1366px) {
 	
