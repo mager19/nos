@@ -523,6 +523,11 @@ span.text, .filter-option {
 	width: 13%;
 }
 
+.menu-principal-active{
+	color:#679AC7;
+	font-weight: 700;
+}
+
 
 /*contenido central */
 
@@ -829,6 +834,105 @@ span.text, .filter-option {
     position: relative;
     top: 35em;
     left: -10em;
+}
+
+/**T . ing ******/
+#header__ing{
+	border-bottom: 2px solid #BCBBBB;
+}
+
+#header__ing img{
+	margin-right: 0.5em;
+}
+
+#encabezado img{
+	width: 10%;
+}
+
+#encabezado h2{
+	color:#679AC7;
+	font-size: 1.8em;
+}
+
+#section__ing{
+	background-color: #f9f9f9;
+	padding: 2em 0;
+}
+
+.ing__cards{
+	background-color: #fff;
+	border:1px solid #9E9E9E;
+	border-radius: 3px;
+	padding: 1em 2em;
+	margin-top: 2em;
+}
+
+.ing__cards__title h3{
+	border-bottom: 2px solid #8C97A4;
+	color:#8C97A4;
+	font-size: 2.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+.ing__cards__item{
+	border:1px solid #9E9E9E;
+	border-radius: 3px;
+	margin: 2em 0;
+	padding: 0.5em 1em;
+}
+
+.ing__cards__item__title h3{
+	color:#8C97A4;
+	font-size: 1.3em;
+
+}
+
+.ing__cards__item__title img{
+	margin-right: 0.5em;
+	width: 10%;
+}
+
+.ing__cards__item__contenido h3{
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+.ing__cards__item__contenido img{
+	margin-right: 0.5em;
+	width: 50%;
+}
+
+.ing__cards__item__contenido ul {
+	margin-left: -2em;
+}
+
+
+.ing__cards__item__users ul li{
+	display: inline-block;
+	width: 30%;
+}
+
+.ing__cards__item__users ul {
+	margin-left: -2em;
+}
+
+.ing__cards__item__users ul li img{
+	width: 120%;
+}
+
+.ing__cards__item__horas{
+	margin-top: 0.5em;
+}
+
+.ing__cards__item__horas h3 img{
+	width: 20%;
+}
+
+.nueva__tarjeta{
+	color:#8C97A4;
+	font-size: 1.3em;
+	padding: 1em 0;
 }
 
 
