@@ -766,6 +766,14 @@ span.text, .filter-option {
 	margin-top: 1em;
 }
 
+.table-modal tr td a{
+	color:#8C97A4;
+	font-size: 0.8em;
+	font-weight: 700;
+	padding-top: 1em;
+	margin-right: 0.5em;
+}
+
 .modal__buttons {
 	margin: 2em 0;
 }
@@ -774,7 +782,7 @@ span.text, .filter-option {
 	border:1px solid #CCCCCC;
 	border-radius: 5px;
 	font-size: 1.2em;
-	padding: 0.8em 1.5em;
+	padding: 0.8em 1.2em;
 }
 
 .modal__buttons a img{
@@ -878,6 +886,7 @@ span.text, .filter-option {
 .ing__cards__item{
 	border:1px solid #9E9E9E;
 	border-radius: 3px;
+	cursor: pointer;
 	margin: 2em 0;
 	padding: 0.5em 1em;
 }
