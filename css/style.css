@@ -447,6 +447,10 @@ span.text, .filter-option {
 	font-weight: 500;
 }
 
+.node-selected{
+	color:#48A0DC!important;
+}
+
 .glyphicon-flag {
     position: relative;
     left: 75%;
@@ -490,7 +494,7 @@ span.text, .filter-option {
 
 .central__cabecera h3{
 	color:#00A1E5;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .central__cabecera img{
@@ -523,7 +527,7 @@ span.text, .filter-option {
 
 .menu-principal li a{
 	color:#00A1E5;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .menu-principal li a img{
@@ -567,20 +571,20 @@ span.text, .filter-option {
 }
 
 .input--large{
-	margin-top: 3em;
+	margin-top: 2em;
 }
 .input--large img{
 	margin-right: 1em;
-	width: 5%;
+	width: 3%;
 }
 
 .input--large h4{
 	color:#000;
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 }
 
 .input--large label{
-	width: 14%;
+	width: 6%;
 }
 
 .notes label{
@@ -593,7 +597,7 @@ span.text, .filter-option {
 	margin-left: 0.5em;
 	padding: 0.3em 0;
 	padding-left: 1em;
-	width:88%;
+	width:95%;
 }
 
 .notes img{
